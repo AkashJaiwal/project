@@ -13,22 +13,22 @@ import Button from '../UI/Button'
 import { useNavigate } from "react-router-dom"
 
 const AcuityScreen = (props) => {
-    let navigate=useNavigate()
-    const{name,prn,date,bed_no,diagnosis,category,total_score,total_category_score}=useSelector((state)=>state.patient)
+    let navigate = useNavigate()
+    const { name, prn, date, bed_no, diagnosis, category, total_score, total_category_score } = useSelector((state) => state.patient)
     async function addPatient() {
         axios.post('http://localhost:8000/api/patient/details/add/', {
-            name:name,
-            prn:prn,
-            date:date,
-            bed_no:bed_no,
-            diagnosis:diagnosis,
-            category:category.toString(),
-            total_score:total_score,
-            total_category_score:total_category_score
+            name: name,
+            prn: prn,
+            date: date,
+            bed_no: bed_no,
+            diagnosis: diagnosis,
+            category: category.toString(),
+            total_score: total_score,
+            total_category_score: total_category_score
         })
             .then(function (response) {
                 console.log(response);
-                navigate("/report/")
+                navigate("/")
 
             })
             .catch(function (error) {
@@ -39,25 +39,30 @@ const AcuityScreen = (props) => {
         event.preventDefault()
         addPatient()
     }
-    
+
     return (
-        <React.Fragment>
-            <div id="wrapper">
-                <div className="patient_details">
-                    <form className="form-group" name="listForm" onSubmit={submitHandler}>
-                        <UserInfo/>
-                        <AcuityCategoryInfo />
-                        <ComplicatedProcdures />
-                        <Education />
-                        <Psychosocial />
-                        <Medication />
-                        <ComplicatedMedications />
-                        <Score />
-                        <Button onClick={submitHandler}></Button>
-                    </form>
+        <>
+            <div className="container-fluid">
+                <p className="heading_acuity_categoery">ACUITY SCORING</p>
+            </div>
+            <div className="container-fluid">
+                <div id="wrapper">
+                    <div className="patient_details">
+                        <form className="form-group" name="listForm" onSubmit={submitHandler}>
+                            <UserInfo />
+                            <AcuityCategoryInfo />
+                            <ComplicatedProcdures />
+                            <Education />
+                            <Psychosocial />
+                            <Medication />
+                            <ComplicatedMedications />
+                            <Score />
+                            <Button onClick={submitHandler}></Button>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </React.Fragment>
+        </>
     )
 }
 

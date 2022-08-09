@@ -7,15 +7,10 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      <div className="container-fluid">
-        <p className="heading_acuity_categoery">ACUITY SCORING</p>
-      </div>
-      <div className="container-fluid">
-        <Routes>
-          <Route path='/' element={<AcuityScreen/>}/>
-          <Route path='/report/' element={<ReportScreen/>}/>
-        </Routes>
-      </div>
+      <Routes>
+        <Route path='/' element={<ReportScreen/>}/>
+        <Route path='/acuity/' element={<AcuityScreen/>}/>
+      </Routes>
     </React.Fragment>
   );
 }
