@@ -65,8 +65,7 @@ function ComplicatedProcdures() {
 
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id7" name="choice[]" value="Routine Tracheal care"
-                                onchange="checkTotal(this.id,2)" />
+                        <ComplicatedProcedureInput type="checkbox" value=">Routine Tracheal care4LO2 NC" checkValue="2"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Routine Tracheal care</label>
@@ -74,8 +73,7 @@ function ComplicatedProcdures() {
                     </div>
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id8" name="choice[]" value="PICC/Central line"
-                                onchange="checkTotal(this.id,2)" />
+                        <ComplicatedProcedureInput type="checkbox" value="PICC/Central line Tracheal care4LO2 NC" checkValue="2"/>
                         </div>
                         <div className="col-sm-9">
                             <label>PICC/Central line</label>
@@ -84,8 +82,7 @@ function ComplicatedProcdures() {
 
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id9" name="choice[]" value="NG tube"
-                                onchange="checkTotal(this.id,2)" />
+                        <ComplicatedProcedureInput type="checkbox" value="NG tube" checkValue="2"/>
                         </div>
                         <div className="col-sm-9">
                             <label>NG tube</label>
@@ -93,8 +90,7 @@ function ComplicatedProcdures() {
                     </div>
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id10" name="choice[]" value="Incontinent PCA"
-                                onchange="checkTotal(this.id,2)" />
+                        <ComplicatedProcedureInput type="checkbox" value=">Incontinent PCA" checkValue="2"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Incontinent PCA</label>
@@ -102,8 +98,7 @@ function ComplicatedProcdures() {
                     </div>
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id11" name="choice[]" value="Rectal Tube"
-                                onchange="checkTotal(this.id,2)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Rectal Tube" checkValue="2"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Rectal Tube</label>
@@ -111,8 +106,7 @@ function ComplicatedProcdures() {
                     </div>
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id12" name="choice[]" value="Isolation"
-                                onchange="checkTotal(this.id,2)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Isolation" checkValue="2"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Isolation</label>
@@ -120,8 +114,7 @@ function ComplicatedProcdures() {
                     </div>
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id13" name="choice[]" value="Fall risk"
-                                onchange="checkTotal(this.id,2)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Fall risk" checkValue="2"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Fall risk</label>
@@ -134,8 +127,7 @@ function ComplicatedProcdures() {
                 <div className="col-sm-2">
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id14" name="choice[]" value="HighflowO2/Vent"
-                                onchange="checkTotal(this.id,3)" />
+                        <ComplicatedProcedureInput type="checkbox" value="HighflowO2/Vent" checkValue="3"/>
                         </div>
                         <div className="col-sm-9">
                             <label>HighflowO2/Vent</label>
@@ -143,8 +135,7 @@ function ComplicatedProcdures() {
                     </div>
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id15" name="choice[]" value="Continuous BiPAP/CPAP"
-                                onchange="checkTotal(this.id,3)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Continuous BiPAP/CPAP" checkValue="3"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Continuous BiPAP/CPAP</label>
@@ -152,8 +143,7 @@ function ComplicatedProcdures() {
                     </div>
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id16" name="choice[]" value="Trachea/Frequent Suctioning"
-                                onchange="checkTotal(this.id,3)" />
+                        <ComplicatedProcedureInput type="checkbox" value="New trachea/Frequent Suctioning" checkValue="3"/>
                         </div>
                         <div className="col-sm-9">
                             <label>New trachea/Frequent Suctioning</label>
@@ -162,8 +152,7 @@ function ComplicatedProcdures() {
 
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id17" name="choice[]" value="Trachea/Frequent Suctioning"
-                                onchange="checkTotal(this.id,3)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Trach care 3 times/shifts" checkValue="3"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Trach care 3 times/shifts</label>
@@ -171,8 +160,7 @@ function ComplicatedProcdures() {
                     </div>
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id18" name="choice[]" value="Wound/skin care"
-                                onchange="checkTotal(this.id,3)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Wound/skin care" checkValue="3"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Wound/skin care</label>
@@ -181,8 +169,7 @@ function ComplicatedProcdures() {
 
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id19" name="choice[]" value="Ostomy"
-                                onchange="checkTotal(this.id,3)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Ostomy" checkValue="3"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Ostomy</label>
@@ -190,8 +177,7 @@ function ComplicatedProcdures() {
                     </div>
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id20" name="choice[]" value="Assist W/ADLS"
-                                onchange="checkTotal(this.id,3)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Assist W/ADLS" checkValue="3"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Assist W/ADLS</label>
@@ -199,8 +185,7 @@ function ComplicatedProcdures() {
                     </div>
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id21" name="choice[]" value="Vitals/neuro check q2h"
-                                onchange="checkTotal(this.id,3)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Vitals/neuro check q2h" checkValue="3"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Vitals/neuro check q2h</label>
@@ -208,8 +193,7 @@ function ComplicatedProcdures() {
                     </div>
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id22" name="choice[]"
-                                value="Continuous bladder irrigation Chest Tube" onchange="checkTotal(this.id,3)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Continuous bladder irrigationFall risk" checkValue="3"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Continuous bladder irrigation</label>
@@ -217,8 +201,7 @@ function ComplicatedProcdures() {
                     </div>
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id23" name="choice[]" value="Chest Tube"
-                                onchange="checkTotal(this.id,3)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Chest Tube" checkValue="3"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Chest Tube</label>
@@ -226,9 +209,7 @@ function ComplicatedProcdures() {
                     </div>
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id24" name="choice[]"
-                                value="Peritoneal Dialysis Opioid/Alcoholwithdrawal assessment"
-                                onchange="checkTotal(this.id,3)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Peritoneal Dialysis" checkValue="3"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Peritoneal Dialysis</label>
@@ -237,8 +218,7 @@ function ComplicatedProcdures() {
 
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id25" name="choice[]"
-                                value="Opioid/Alcoholwithdrawal assessment" onchange="checkTotal(this.id,3)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Opioid/Alcoholwithdrawal assessment" checkValue="3"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Opioid/Alcoholwithdrawal assessment</label>
@@ -247,8 +227,7 @@ function ComplicatedProcdures() {
 
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id26" name="choice[]" value="Unfinished admit"
-                                onchange="checkTotal(this.id,3)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Unfinished admit" checkValue="3"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Unfinished admit</label>
@@ -262,8 +241,7 @@ function ComplicatedProcdures() {
                 <div className="col-sm-2">
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id27" name="choice[]" value="Total Care"
-                                onchange="checkTotal(this.id,4)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Unfinished admit" checkValue="3"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Total Care</label>
@@ -271,8 +249,7 @@ function ComplicatedProcdures() {
                     </div>
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id28" name="choice[]" value="Restraints"
-                                onchange="checkTotal(this.id,4)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Unfinished admit" checkValue="3"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Restraints</label>
@@ -280,8 +257,7 @@ function ComplicatedProcdures() {
                     </div>
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id29" name="choice[]" value="Total Feed"
-                                onchange="checkTotal(this.id,4)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Total Feed" checkValue="4"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Total Feed</label>
@@ -289,8 +265,7 @@ function ComplicatedProcdures() {
                     </div>
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id30" name="choice[]" value="Confused/Restless"
-                                onchange="checkTotal(this.id,4)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Confused/Restless/Combative" checkValue="4"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Confused/Restless/Combative</label>
@@ -299,8 +274,7 @@ function ComplicatedProcdures() {
 
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id31" name="choice[]" value="High Risk for fall"
-                                onchange="checkTotal(this.id,4)" />
+                        <ComplicatedProcedureInput type="checkbox" value="High fall risk/SOMA bed" checkValue="4"/>
                         </div>
                         <div className="col-sm-9">
                             <label>High fall risk/SOMA bed</label>
@@ -309,8 +283,7 @@ function ComplicatedProcdures() {
 
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id32" name="choice[]" value="High Risk for fall"
-                                onchange="checkTotal(this.id,4)" />
+                        <ComplicatedProcedureInput type="checkbox" value="Post code/rapid response team" checkValue="4"/>
                         </div>
                         <div className="col-sm-9">
                             <label>Post code/rapid response team</label>
