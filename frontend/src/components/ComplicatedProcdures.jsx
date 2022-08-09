@@ -56,8 +56,7 @@ function ComplicatedProcdures() {
 
                     <div className="row">
                         <div className="col-sm-3">
-                            <input type="checkbox" id="id6" name="choice[]" value="BiPAP/CPAP"
-                                onchange="checkTotal(this.id,2)" />
+                        <ComplicatedProcedureInput type="checkbox" value="BiPAP/CPAP" checkValue="2"/>
                         </div>
                         <div className="col-sm-9">
                             <label>BiPAP/CPAP</label>
